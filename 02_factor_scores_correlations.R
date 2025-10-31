@@ -13,7 +13,6 @@ rm(list=ls())
 library(OpenMx)
 library(data.table)
 library(psych)
-library(polycor)
 
 
 mxOption(key='Number of Threads', value=parallel::detectCores()) #now
