@@ -37,7 +37,7 @@ ordFacData4MI <- theData
 theData4EFA <- theData[,c(1:20)]
 ordFacData4MI[,c(1:20)] <- mxFactor(ordFacData4MI[,c(1:20)], levels = 0:4, ordered = TRUE)#, exclude = 888) # if non-level values
 
-## extract polychoric corrs, SEs etc
+## extract polychoric corrs and SEs 
 corrsOut <- hetcor(ordFacData, ML = FALSE, std.err = TRUE)
 corrs <- corrsOut$correlations
 corrsSEs <- corrsOut$std.errors
