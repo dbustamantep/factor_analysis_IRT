@@ -42,7 +42,6 @@ corrs <- corrsOut$correlations
 corrsSEs <- corrsOut$std.errors
 
 # simulated thresholds for binary data (15 items)
-## get thresholds (and can do polychoric correlations here too if hetcor is acting out)
 thresholds <- c(1.834267, 1.823803, 1.084342, 1.5855, 2.123654, 0.6831468, 1.29325, 1.764867, 1.979092, 1.232216, 2.228277, 0.6116753, 1.054758, 0.6451828, 2.1627)
 
 ## number of thresholds:
